@@ -12,6 +12,7 @@ features
   stop song ("stop song") stop song
   remember ("remember <something>") and then it will save it in a notes file
   recall ("recall") prints notes text file
+  erase notes ("clear notes") clears the notes file
   tells you info ("what is <thing>) pulls first results intro paragraph from simple English wikipedia
   tells you info in German ("was ist <thing>") pulls first results intro paragraph from German wikipedia
   search things ("search <thing>" and ("search url <thing") search from Google or whatever and search direct url

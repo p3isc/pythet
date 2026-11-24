@@ -151,6 +151,9 @@ def a():
             input("you would press enter right? well i wouldnt if i were in your shoes!")
             clear()
 
+    elif query == 'clear notes':
+        subprocess.run([">", "notes"])
+
     elif query == 'status':
         status_result = subprocess.run(
             ["spotatui", "playback", "--status"],
